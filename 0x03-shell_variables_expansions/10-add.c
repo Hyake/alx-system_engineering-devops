@@ -1,14 +1,14 @@
-include "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
  * add - prints add two numbers
- * @i: print int i
- * @k: print int k
+ * @n: print int n
+ * @m: print int m
  * Return: Always 0.
  */
 
-int add(int i, int k)
+int add(int n, int m)
 {
-	return (i + k);
+	return (n+ m);
 }
